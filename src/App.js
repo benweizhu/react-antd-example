@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Select } from 'antd';
+
 import './App.css';
 
 const { Option } = Select;
@@ -8,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div>
+        <div className="container">
           <Select
             mode="multiple"
             style={{ width: '100%' }}
